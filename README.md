@@ -11,3 +11,10 @@ This project showcases an interactive Power BI dashboard built using **Adventure
 - Product and customer segmentation
 
 The goal of this dashboard is to demonstrate the power of **data storytelling** with interactive visuals, slicers, and DAX calculations to track **performance**, identify **opportunities**, and make **data-driven decisions**.
+## 📁 Files in this Repository
+
+| File Name | Description |
+|-----------|-------------|
+| `Adventure Works Sales Report 2022.pbix` | Main Power BI dashboard file |
+| `README.md` | Project description |
+| `.png` | Images containing dashboard screenshots (referenced below) |
