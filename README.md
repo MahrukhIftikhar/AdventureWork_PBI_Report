@@ -10,7 +10,31 @@ This project showcases an interactive Power BI dashboard built using **Adventure
 - Sales performance against budget targets
 - Product and customer segmentation
 
-The goal of this dashboard is to demonstrate the power of **data storytelling** with interactive visuals, slicers, and DAX calculations to track **performance**, identify **opportunities**, and make **data-driven decisions**.
+The goal of this dashboard is to demonstrate the power of **data storytelling** with interactive visuals, slicers, and DAX calculations to track **performance**, identify **opportunities**, and make **data-driven decisions**. Here you can see the detailed project overview:
+
+![Project Overview](Model_Architecture.png)
+## Business Requirements
+The goal of this report is to help business stakeholders:
+
+- Track sales performance across products, cities, and customers.
+- Monitor how sales compare to targets (budget).
+- Analyze growth and decline in sales versus the previous year (YoY).
+- Identify top-performing customers and regions.
+Detailed Requirements are mention in file ![Business Requirement Overview](Business Requirement Overview.pdf)
+
+## Enviorenment
+SQL, Docker, MS SQL Server, Dbeaver, Excel Files, PBI, Github.
+## Data Source & Processing
+
+- The dataset was .bak file on a website downloaded from there and restored in MS SQL Server through docker and it includes many tables like:
+  - Customer
+  - Product
+  - Geography
+  - Calendar (Date)
+- Data cleaning, transformation was done in dbeaver and files are placed in code/ folder.
+- Modeling were done in **Power BI**.
+- Relationships were established between fact and dimension tables using **Star Schema**.
+
 ## 📁 Files in this Repository
 
 | File Name | Description |
