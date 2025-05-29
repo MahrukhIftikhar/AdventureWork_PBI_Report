@@ -20,9 +20,9 @@ The goal of this report is to help business stakeholders:
 - Monitor how sales compare to targets (budget).
 - Analyze growth and decline in sales versus the previous year (YoY).
 - Identify top-performing customers and regions.
-Detailed Requirements are mention in file ![Business Requirement Overview](Business Requirement Overview.pdf)
+Detailed Requirements are mention in file ![Business Requirement Overview](Business_Demand_Overview.pdf)
 
-## Enviorenment
+## Enviorenment or Tools
 SQL, Docker, MS SQL Server, Dbeaver, Excel Files, PBI, Github.
 ## Data Source & Processing
 
@@ -106,3 +106,12 @@ CALCULATE([Sales], SAMEPERIODLASTYEAR('Dim_Calendar'[Date]))
 YoY Growth % = 
 DIVIDE([Sales] - [Previous Year Sales], [Previous Year Sales], 0)
 ```
+## Key Insights
+- Identified top 10 customers contributing the most to revenue.
+- Tracked performance vs. targets and found underperforming segments.
+- Visualized YoY trends to highlight growth or decline in customer engagement.
+## How to Use
+- Clone the repository: git clone https://github.com/your-username/adventureworks-sales-report.git
+- Open the Power BI file (Adventure Works Sales Report 2022.pbix) using Power BI Desktop.
+- Refresh the data source if necessary.
+- Use slicers for filters like Product Category, City, Month, or Year to explore deeper insights.
