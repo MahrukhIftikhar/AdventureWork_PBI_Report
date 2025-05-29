@@ -12,7 +12,7 @@ This project showcases an interactive Power BI dashboard built using **Adventure
 
 The goal of this dashboard is to demonstrate the power of **data storytelling** with interactive visuals, slicers, and DAX calculations to track **performance**, identify **opportunities**, and make **data-driven decisions**. Here you can see the detailed project overview:
 
-![Project Overview](Model_Architecture.png)
+![Project Overview](Model Architecture.png)
 ## Business Requirements
 The goal of this report is to help business stakeholders:
 
