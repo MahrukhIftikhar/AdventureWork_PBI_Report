@@ -36,4 +36,43 @@ This page provides a high-level summary of overall sales metrics, budget compari
 - Sales by Top 10 Customers
 - Sales by Top 10 Products
 - Map showing slaes by customer city
+
 ![Sales Overview](Sales_Page.png)
+### 2. **Customer Details Page**
+
+This section highlights customer-level sales performance:
+
+- Top 10 customers by sales
+- Sales comparison with previous year (PY)
+- Absolute and percentage YoY growth
+- Visual indicators of performance using Zebra BI charts
+![Customer Details](Customer_Page.png)
+
+### 2. **Product Details Page**
+
+This section highlights product-level sales performance:
+
+- Top 10 products by sales
+- Sales comparison with previous year (PY)
+- Visual indicators of performance using Zebra BI charts
+![Product Details](Product_Page.png)
+
+## 🧠 Key DAX Measures
+
+Here are some of the core DAX measures used in the dashboard:
+
+### Sales
+Sales = sum(Fact_InternetSales[SalesAmount])
+
+### Percentage to Target
+```DAX
+Performance = 
+DIVIDE([Sales], [Net Budget], 0)
+
+### Previous Year Sales
+Previous Year Sales = 
+CALCULATE([Sales], SAMEPERIODLASTYEAR('Dim_Calendar'[Date]))
+
+### Year Over Year Growth Percentage
+YoY Growth % = 
+DIVIDE([Sales] - [Previous Year Sales], [Previous Year Sales], 0)
