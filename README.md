@@ -36,4 +36,4 @@ This page provides a high-level summary of overall sales metrics, budget compari
 - Sales by Top 10 Customers
 - Sales by Top 10 Products
 - Map showing slaes by customer city
-`Sales_Page.png`
+![Sales Overview](Sales_Page.png)
