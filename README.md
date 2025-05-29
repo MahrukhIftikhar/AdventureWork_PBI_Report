@@ -111,7 +111,7 @@ DIVIDE([Sales] - [Previous Year Sales], [Previous Year Sales], 0)
 - Tracked performance vs. targets and found underperforming segments.
 - Visualized YoY trends to highlight growth or decline in customer engagement.
 ## How to Use
-- Clone the repository: git clone https://github.com/your-username/adventureworks-sales-report.git
+- Clone the repository: git clone https://github.com/MahrukhIftikhar/AdventureWork_PBI_Report.git
 - Open the Power BI file (Adventure Works Sales Report 2022.pbix) using Power BI Desktop.
 - Refresh the data source if necessary.
 - Use slicers for filters like Product Category, City, Month, or Year to explore deeper insights.
