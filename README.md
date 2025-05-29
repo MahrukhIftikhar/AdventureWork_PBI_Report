@@ -83,6 +83,11 @@ This section highlights product-level sales performance:
   
 ![Product Details](Product_Page.png)
 
+## Model Overview
+
+Here you can see how data is modeled internaly in PBI:
+![Model Overview](Model_PBI.png)
+
 ## 🧠 Key DAX Measures
 
 Here are some of the core DAX measures used in the dashboard:
